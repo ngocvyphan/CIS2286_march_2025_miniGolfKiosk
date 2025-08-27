@@ -1,0 +1,62 @@
+/*
+Name: Alex Creamer
+Date: 02/24/2019
+Purpose: CSS page to style the orderItem page for the birthday party forms
+Modified 04/04/2025 Vy Phan changed and added more CSS
+ */
+#container {
+    width: 100%;
+    /*margin: 0 auto;*/
+    /*border: 1px solid black;*/
+    /*background-color: #6edff6;*/
+}
+form, input, select  {
+    font-size: 90%;
+}
+
+#leftArea fieldset {
+    width:400px;
+    background-color: #6edff6;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+legend {
+    background-color: darkblue;
+    color: white;
+}
+
+#leftArea {
+    /*float:left;*/
+}
+#leftArea a {
+    text-decoration: none;
+    color: black;
+    cursor: help;
+}
+h5 {
+    font-size: 60%;
+    margin-top:-10px;
+    background-color: #6edff6;
+}
+h1{
+    background-color: #6edff6;
+}
+#totalAfterTaxDiv {
+    font-weight: bolder;
+}
+#changeButton {
+    font-size: 90%;
+}
+#changeOutput {
+    display:none;
+    padding: 10px;
+    background-color: #74ff9b;
+    border: 1px solid black;
+}
+
+#numAdults, #numChildren, #discountString{
+    background-color: darkblue;
+    color: white;
+}
+
+
